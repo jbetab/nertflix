@@ -1,0 +1,11 @@
+/home/jero/Escritorio/2.0/Netflix.Domain/bin/Debug/net8.0/Netflix.Domain.deps.json
+/home/jero/Escritorio/2.0/Netflix.Domain/bin/Debug/net8.0/Netflix.Domain.dll
+/home/jero/Escritorio/2.0/Netflix.Domain/bin/Debug/net8.0/Netflix.Domain.pdb
+/home/jero/Escritorio/2.0/Netflix.Domain/obj/Debug/net8.0/Netflix.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/jero/Escritorio/2.0/Netflix.Domain/obj/Debug/net8.0/Netflix.Domain.AssemblyInfoInputs.cache
+/home/jero/Escritorio/2.0/Netflix.Domain/obj/Debug/net8.0/Netflix.Domain.AssemblyInfo.cs
+/home/jero/Escritorio/2.0/Netflix.Domain/obj/Debug/net8.0/Netflix.Domain.csproj.CoreCompileInputs.cache
+/home/jero/Escritorio/2.0/Netflix.Domain/obj/Debug/net8.0/Netflix.Domain.dll
+/home/jero/Escritorio/2.0/Netflix.Domain/obj/Debug/net8.0/refint/Netflix.Domain.dll
+/home/jero/Escritorio/2.0/Netflix.Domain/obj/Debug/net8.0/Netflix.Domain.pdb
+/home/jero/Escritorio/2.0/Netflix.Domain/obj/Debug/net8.0/ref/Netflix.Domain.dll

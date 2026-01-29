@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netflix.Api", "Netflix.Api\Netflix.Api.csproj", "{C8E898A2-BB3E-44E2-AC38-7766FBED39FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netflix.Application", "Netflix.Application\Netflix.Application.csproj", "{3EB4C2A5-F84E-4AB7-996C-A6BF7E0B5154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netflix.Domain", "Netflix.Domain\Netflix.Domain.csproj", "{DAAE5E07-EAAA-40B5-9DE2-EA1E2FAA7662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netflix.Infrastructure", "Netflix.Infrastructure\Netflix.Infrastructure.csproj", "{55EF2E44-142E-45ED-985B-45E85323A312}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8E898A2-BB3E-44E2-AC38-7766FBED39FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E898A2-BB3E-44E2-AC38-7766FBED39FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E898A2-BB3E-44E2-AC38-7766FBED39FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E898A2-BB3E-44E2-AC38-7766FBED39FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB4C2A5-F84E-4AB7-996C-A6BF7E0B5154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB4C2A5-F84E-4AB7-996C-A6BF7E0B5154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB4C2A5-F84E-4AB7-996C-A6BF7E0B5154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB4C2A5-F84E-4AB7-996C-A6BF7E0B5154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAAE5E07-EAAA-40B5-9DE2-EA1E2FAA7662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAE5E07-EAAA-40B5-9DE2-EA1E2FAA7662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAE5E07-EAAA-40B5-9DE2-EA1E2FAA7662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAE5E07-EAAA-40B5-9DE2-EA1E2FAA7662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55EF2E44-142E-45ED-985B-45E85323A312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55EF2E44-142E-45ED-985B-45E85323A312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55EF2E44-142E-45ED-985B-45E85323A312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55EF2E44-142E-45ED-985B-45E85323A312}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

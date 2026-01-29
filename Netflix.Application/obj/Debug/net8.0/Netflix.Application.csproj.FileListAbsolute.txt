@@ -1,0 +1,15 @@
+/home/jero/Escritorio/2.0/Netflix.Application/bin/Debug/net8.0/Netflix.Application.deps.json
+/home/jero/Escritorio/2.0/Netflix.Application/bin/Debug/net8.0/Netflix.Application.dll
+/home/jero/Escritorio/2.0/Netflix.Application/bin/Debug/net8.0/Netflix.Application.pdb
+/home/jero/Escritorio/2.0/Netflix.Application/bin/Debug/net8.0/Netflix.Domain.dll
+/home/jero/Escritorio/2.0/Netflix.Application/bin/Debug/net8.0/Netflix.Domain.pdb
+/home/jero/Escritorio/2.0/Netflix.Application/obj/Debug/net8.0/Netflix.Application.csproj.AssemblyReference.cache
+/home/jero/Escritorio/2.0/Netflix.Application/obj/Debug/net8.0/Netflix.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/jero/Escritorio/2.0/Netflix.Application/obj/Debug/net8.0/Netflix.Application.AssemblyInfoInputs.cache
+/home/jero/Escritorio/2.0/Netflix.Application/obj/Debug/net8.0/Netflix.Application.AssemblyInfo.cs
+/home/jero/Escritorio/2.0/Netflix.Application/obj/Debug/net8.0/Netflix.Application.csproj.CoreCompileInputs.cache
+/home/jero/Escritorio/2.0/Netflix.Application/obj/Debug/net8.0/Netflix.Application.csproj.CopyComplete
+/home/jero/Escritorio/2.0/Netflix.Application/obj/Debug/net8.0/Netflix.Application.dll
+/home/jero/Escritorio/2.0/Netflix.Application/obj/Debug/net8.0/refint/Netflix.Application.dll
+/home/jero/Escritorio/2.0/Netflix.Application/obj/Debug/net8.0/Netflix.Application.pdb
+/home/jero/Escritorio/2.0/Netflix.Application/obj/Debug/net8.0/ref/Netflix.Application.dll
