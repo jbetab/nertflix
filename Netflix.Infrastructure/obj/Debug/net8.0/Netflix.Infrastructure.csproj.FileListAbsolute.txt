@@ -21,3 +21,14 @@
 /home/jero/Escritorio/2.0/Netflix.Infrastructure/obj/Debug/net8.0/Netflix.Infrastructure.pdb
 /home/jero/Escritorio/2.0/Netflix.Infrastructure/obj/Debug/net8.0/Netflix.Infrastructure.genruntimeconfig.cache
 /home/jero/Escritorio/2.0/Netflix.Infrastructure/obj/Debug/net8.0/ref/Netflix.Infrastructure.dll
+/home/jero/Escritorio/2.0/Netflix.Infrastructure/obj/Debug/net8.0/Netflix.Infrastructure.sourcelink.json
+/home/jero/Escritorio/2.0/Netflix.Infrastructure/bin/Debug/net8.0/Microsoft.AspNetCore.Http.Features.dll
+/home/jero/Escritorio/2.0/Netflix.Infrastructure/bin/Debug/net8.0/Microsoft.Net.Http.Headers.dll
+/home/jero/Escritorio/2.0/Netflix.Infrastructure/bin/Debug/net8.0/System.IO.Pipelines.dll
+/home/jero/Escritorio/2.0/Netflix.Infrastructure/bin/Debug/net8.0/Microsoft.AspNetCore.Connections.Abstractions.dll
+/home/jero/Escritorio/2.0/Netflix.Infrastructure/bin/Debug/net8.0/Microsoft.Extensions.Features.dll
+/home/jero/Escritorio/2.0/Netflix.Infrastructure/bin/Debug/net8.0/Microsoft.AspNetCore.Http.Features.xml
+/home/jero/Escritorio/2.0/Netflix.Infrastructure/bin/Debug/net8.0/Microsoft.Net.Http.Headers.xml
+/home/jero/Escritorio/2.0/Netflix.Infrastructure/bin/Debug/net8.0/System.IO.Pipelines.xml
+/home/jero/Escritorio/2.0/Netflix.Infrastructure/bin/Debug/net8.0/Microsoft.AspNetCore.Connections.Abstractions.xml
+/home/jero/Escritorio/2.0/Netflix.Infrastructure/bin/Debug/net8.0/Microsoft.Extensions.Features.xml

@@ -22,7 +22,7 @@ namespace Netflix.Infrastructure.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
-            modelBuilder.Entity("back.Domain.Entities.Category", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -42,7 +42,7 @@ namespace Netflix.Infrastructure.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Episode", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Episode", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -71,7 +71,7 @@ namespace Netflix.Infrastructure.Migrations
                     b.ToTable("Episodes");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Lista", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Lista", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -99,7 +99,7 @@ namespace Netflix.Infrastructure.Migrations
                     b.ToTable("Listas");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Movie", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Movie", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -139,7 +139,7 @@ namespace Netflix.Infrastructure.Migrations
                     b.ToTable("Movies");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Profile", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Profile", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -165,7 +165,7 @@ namespace Netflix.Infrastructure.Migrations
                     b.ToTable("Profiles");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Season", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Season", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -186,7 +186,7 @@ namespace Netflix.Infrastructure.Migrations
                     b.ToTable("Seasons");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Series", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Series", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -212,7 +212,7 @@ namespace Netflix.Infrastructure.Migrations
                     b.ToTable("Series");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.User", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -248,9 +248,9 @@ namespace Netflix.Infrastructure.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Episode", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Episode", b =>
                 {
-                    b.HasOne("back.Domain.Entities.Season", "Season")
+                    b.HasOne("Netflix.Domain.Entities.Season", "Season")
                         .WithMany("Episodes")
                         .HasForeignKey("SeasonId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -259,19 +259,19 @@ namespace Netflix.Infrastructure.Migrations
                     b.Navigation("Season");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Lista", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Lista", b =>
                 {
-                    b.HasOne("back.Domain.Entities.Movie", "Movie")
+                    b.HasOne("Netflix.Domain.Entities.Movie", "Movie")
                         .WithMany()
                         .HasForeignKey("MovieId");
 
-                    b.HasOne("back.Domain.Entities.Profile", "Profile")
+                    b.HasOne("Netflix.Domain.Entities.Profile", "Profile")
                         .WithMany("MyList")
                         .HasForeignKey("ProfileId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("back.Domain.Entities.Series", "Series")
+                    b.HasOne("Netflix.Domain.Entities.Series", "Series")
                         .WithMany()
                         .HasForeignKey("SeriesId");
 
@@ -282,9 +282,9 @@ namespace Netflix.Infrastructure.Migrations
                     b.Navigation("Series");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Movie", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Movie", b =>
                 {
-                    b.HasOne("back.Domain.Entities.Category", "Category")
+                    b.HasOne("Netflix.Domain.Entities.Category", "Category")
                         .WithMany("Movies")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -293,9 +293,9 @@ namespace Netflix.Infrastructure.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Profile", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Profile", b =>
                 {
-                    b.HasOne("back.Domain.Entities.User", "User")
+                    b.HasOne("Netflix.Domain.Entities.User", "User")
                         .WithMany("Profiles")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -304,9 +304,9 @@ namespace Netflix.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Season", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Season", b =>
                 {
-                    b.HasOne("back.Domain.Entities.Series", "Series")
+                    b.HasOne("Netflix.Domain.Entities.Series", "Series")
                         .WithMany("Seasons")
                         .HasForeignKey("SeriesId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -315,9 +315,9 @@ namespace Netflix.Infrastructure.Migrations
                     b.Navigation("Series");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Series", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Series", b =>
                 {
-                    b.HasOne("back.Domain.Entities.Category", "Category")
+                    b.HasOne("Netflix.Domain.Entities.Category", "Category")
                         .WithMany("Series")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -326,29 +326,29 @@ namespace Netflix.Infrastructure.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Category", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Category", b =>
                 {
                     b.Navigation("Movies");
 
                     b.Navigation("Series");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Profile", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Profile", b =>
                 {
                     b.Navigation("MyList");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Season", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Season", b =>
                 {
                     b.Navigation("Episodes");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.Series", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.Series", b =>
                 {
                     b.Navigation("Seasons");
                 });
 
-            modelBuilder.Entity("back.Domain.Entities.User", b =>
+            modelBuilder.Entity("Netflix.Domain.Entities.User", b =>
                 {
                     b.Navigation("Profiles");
                 });

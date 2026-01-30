@@ -9,3 +9,4 @@
 /home/jero/Escritorio/2.0/Netflix.Domain/obj/Debug/net8.0/refint/Netflix.Domain.dll
 /home/jero/Escritorio/2.0/Netflix.Domain/obj/Debug/net8.0/Netflix.Domain.pdb
 /home/jero/Escritorio/2.0/Netflix.Domain/obj/Debug/net8.0/ref/Netflix.Domain.dll
+/home/jero/Escritorio/2.0/Netflix.Domain/obj/Debug/net8.0/Netflix.Domain.sourcelink.json

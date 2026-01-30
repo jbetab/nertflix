@@ -124,3 +124,6 @@
 /home/jero/Escritorio/2.0/Netflix.Api/obj/Debug/net8.0/Netflix.Api.pdb
 /home/jero/Escritorio/2.0/Netflix.Api/obj/Debug/net8.0/Netflix.Api.genruntimeconfig.cache
 /home/jero/Escritorio/2.0/Netflix.Api/obj/Debug/net8.0/ref/Netflix.Api.dll
+/home/jero/Escritorio/2.0/Netflix.Api/obj/Debug/net8.0/Netflix.Api.sourcelink.json
+/home/jero/Escritorio/2.0/Netflix.Api/bin/Debug/net8.0/CloudinaryDotNet.dll
+/home/jero/Escritorio/2.0/Netflix.Api/bin/Debug/net8.0/Newtonsoft.Json.dll
